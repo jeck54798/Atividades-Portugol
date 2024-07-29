@@ -4,13 +4,14 @@ programa {
    inteiro num=0, contador=0
    
    enquanto(num >= 0) {
-    escreva("Digite um número (negativo para sair): ")
+    escreva("Digite um nÃºmero: ")
     leia(num)
+    escreva("(negativo para sair)\n")
     se(num % 2 == 0){
       contador++
     }
    }
-   escreva("Quantidade de números pares digitados: ", contador)
+   escreva("Quantidade de nÃºmeros pares digitados: ", contador)
 
   }
 }
