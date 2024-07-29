@@ -11,8 +11,8 @@ programa {
     leia(idade)
 
     se(idade < 18){
-      escreva(nome, "você é menor de idade")
-    }senao esceva(nome, "você é maior de idade")
+      escreva(nome, "vocÃª Ã© menor de idade")
+    }senao esceva(nome, "vocÃª Ã© maior de idade")
 
   }
 }
